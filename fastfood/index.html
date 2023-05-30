@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Веб сервіс Фаст фуд</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header>
+		<section class="flex">
+
+			<a href="#" class="logo"><i class="fas fa-utensils"></i>Фаст фуд</a>
+
+			<nav class="navbar">
+				<a class="active" href="#home">Головна</a>
+				<a href="#dishes">Страви</a>
+				<a href="#about">Про нас</a>
+				<a href="#menu">Меню</a>
+				<a href="#review">Відгуки</a>
+				<a href="#order">Замовлення</a>
+			</nav>
+
+			<div class="icons">
+				<i class="fas fa-bars" id="menu-bars"></i>
+				<i class="fas fa-search" id="search-icon"></i>
+				<a href="#" class="fas fa-heart"></a>
+				<a href="#" class="fas fa-shopping-cart"></a>
+			</div>
+
+		</section>
+
+	</header>
+
+	<!-- форма пошуку -->
+
+	<form action="" id="search-form">
+		<input type="search" placeholder="шукати тут..." name="" id="search-box">
+		<label for="search-box" class="fas fa-search"></label>
+		<i class="fas fa-times" id="close"></i>
+	</form>
+
+	<!-- розділ головної сторінки починається -->
+
+	<!-- решта коду... -->
+
+	</section>
+
+	<div class="container">
+
+		<section class="home" id="home">
+
+			<div class="swiper home-slider">
+
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>наша спеціальна страва</span>
+							<h3>Роли</h3>
+							<p>ми пропонуємо незабутню колекцію ролів, які прикрасять ваше смакове розмаїття!
+								Наші роли - це поєднання свіжих інгредієнтів та майстерності виготовлення,
+								що перетворюють їх на справжні шедеври кулінарного мистецтва.</p>
+							<a href="#" class="btn order-form">замовити зараз</a>
+						</div>
+						<div class="image">
+							<img src="images/3.png" alt="">
+						</div>
+					</div>
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>наша спеціальна страва</span>
+							<h3>Жарена курка</h3>
+							<p>Смакуйте соковите й апетитне смажене куряче м'ясо в стилі фаст-фуду!
+								Наша страва приготовлена зі свіжих курячих частин,
+								які смажаться до золотистої скоринки, зберігаючи ніжність та соковитість м'яса.</p>
+							<a href="#" class="btn">замовити зараз</a>
+						</div>
+						<div class="image">
+							<img src="images/1.png" alt="">
+						</div>
+					</div>
+
+					<div class="swiper-slide slide">
+						<div class="content">
+							<span>наша спеціальна страва</span>
+							<h3>Гаряча піца</h3>
+							<p>Спробуйте нашу неперевершену фаст-фуд піцу,
+								яка стане справжньою насолодою для вашого смаку!
+								Наша піца приготовлена з найсвіжіших інгредієнтів та виконана в найкращих традиціях фаст-фуду.
+							</p>
+							<a href="#" class="btn">замовити зараз</a>
+						</div>
+						<div class="image">
+							<img src="images/2.jpg" alt="">
+						</div>
+					</div>
+
+				</div>
+
+				<div class="swiper-pagination"></div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+
+
+	<div class="container">
+
+		<section class="dishes" id="dishes">
+
+			<h3 class="sub-heading"> Наші страви </h3>
+			<h1 class="heading"> Популярні страви </h1>
+
+			<div class="box-container">
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-1.jpg" alt="">
+					<h3>Бургер</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>120 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-2.png" alt="">
+					<h3>М'ясні котлети</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>80 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-3.png" alt="">
+					<h3>Курка</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>300 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-4.png" alt="">
+					<h3>Піцца</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>100 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-5.png" alt="">
+					<h3>Тортик</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>150 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+				<div class="box">
+					<a href="#" class="fas fa-heart"></a>
+					<a href="#" class="fas fa-eye"></a>
+					<img src="images/dish-6.png" alt="">
+					<h3>Курячі гомілки</h3>
+					<div class="stars">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star-half-alt"></i>
+					</div>
+					<span>130 грн</span>
+					<a href="#" class="btn">Додати до кошика</a>
+				</div>
+
+			</div>
+
+		</section>
+	</div>
+
+
+	<!-- розділ про нас починається -->
+	<div class="container">
+
+		<section class="about" id="about">
+
+			<h1 class="sub-heading"> про нас </h1>
+
+			<div class="row">
+
+				<div class="image">
+					<img src="images/4.jpg" alt="">
+				</div>
+
+				<div class="content">
+					<h3>найкраща їжа в країні</h3>
+					<p>Ми - ваш надійний фаст-фудовий сервіс, присвячений наданню смачних і швидких страв для задоволення
+						вашого голоду!
+						Наша команда працює наполегливо, щоб забезпечити вам найкращий досвід їжі на швидку руку.
+						Наше головне завдання - це забезпечити вам якісну їжу з найсвіжіших інгредієнтів.
+						Ми пильно контролюємо кожен етап приготування страви - від підготовки інгредієнтів до процесу
+						готування.
+						Ми прагнемо досягти вишуканого смаку і створити страви, які приносять задоволення кожному клієнту.</p>
+					<p>Ми розуміємо, що ваш час цінний, тому пропонуємо зручну доставку прямо до вашої двері.
+						Ми прагнемо забезпечити швидку та надійну доставку, щоб ви могли насолоджуватися нашою смачною їжею з
+						комфортом вашого дому чи офісу.</p>
+					<div class="icons-container">
+						<div class="icons">
+							<i class="fas fa-shipping-fast"></i>
+							<span>безкоштовна доставка</span>
+						</div>
+						<div class="icons">
+							<i class="fas fa-dollar-sign"></i>
+							<span>легкі платежі</span>
+						</div>
+						<div class="icons">
+							<i class="fas fa-headset"></i>
+							<span>послуга 24/7</span>
+						</div>
+					</div>
+					<a href="#" class="btn">дізнатися більше</a>
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+
+	<div class="container">
+
+		<section class="menu" id="menu">
+
+			<h1 class="sub-heading"> наше меню </h1>
+
+
+			<div class="box-container">
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-1.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>піцца капричоза</h3>
+						<p>Замовте піццу "Капричоза" прямо зараз і насолоджуйтеся її неповторним смаком,
+							незалежно від того, чи ви її споживаєте самостійно, чи ділитеся з друзями та родиною.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">170 грн</span>
+					</div>
+				</div>
+
+				<!-- решта коду... -->
+
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-2.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Біг тейсті</h3>
+						<p>Замовте "Біг тейсті" прямо зараз і насолоджуйтеся його вишуканим смаком та ситними враженнями.
+							Це ідеальний вибір для тих, хто шукає швидкий перекус з багатим смаком і енергією.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">200 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-3.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Блини</h3>
+						<p>Замовте наші блини фаст-фуду прямо зараз і насолоджуйтесь їх смаком і швидкістю приготування.
+							Це ідеальний вибір для тих, хто шукає ситний та смачний перекус у зручному форматі фаст-фуду.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">220 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-4.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Вафлі в зефірі</h3>
+						<p>Замовте наші вафлі в зефірі прямо зараз і насолоджуйтесь цим ніжним та солодким десертом.
+							Це ідеальний вибір для тих, хто любить солодощі та шукає незабутній смаковий досвід.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">300 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-5.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Торт шоколадний</h3>
+						<p>Замовте наш шоколадний торт прямо зараз і дозвольте собі зануритися в світ розкішного шоколаду.
+							Це ідеальний вибір для важливих подій, свят або просто для того, щоб насолодитися шматочком
+							задоволення в будь-який час.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">450 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-6.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Кекс</h3>
+						<p>Замовте наш кекс прямо зараз і насолоджуйтесь його солодким смаком та пухкою текстурою.
+							Він стане прекрасним доповненням до вашого сніданку, перекусу або подарунком для вашого близького.
+						</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">230 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-7.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Мохіто</h3>
+						<p>Замовте наш Мохіто прямо зараз і насолоджуйтесь освіжаючим та смачним коктейлем.
+							Це ідеальний вибір для вечірнього виходу з друзями, вечірньої вечері або просто для того, щоб
+							розслабитися та насолодитися моментом.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">250 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-8.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Фруктовий салат</h3>
+						<p>Замовте наш фруктовий салат прямо зараз і насолоджуйтесь смаком свіжих фруктів, які розкриються в
+							кожному ковтку.
+							Це ідеальний варіант для тих, хто цінує здорове харчування та смакові насолоди.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">500 грн</span>
+					</div>
+				</div>
+
+				<div class="box">
+					<div class="image">
+						<img src="images/menu-9.jpg" alt="">
+						<a href="#" class="fas fa-heart"></a>
+					</div>
+					<div class="content">
+						<div class="stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star-half-alt"></i>
+						</div>
+						<h3>Апельсиновий сік</h3>
+						<p>Замовте наш апельсиновий сік прямо зараз і насолоджуйтесь свіжістю та смаком цитрусового напою.
+							Він додасть енергії та освіжить вас в будь-який момент.</p>
+						<a href="#" class="btn">В кошик</a>
+						<span class="price">30 грн</span>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+
+
+	<div class="container">
+
+		<section class="review" id="review">
+
+			<h3 class="sub-heading">відгуки клієнтів</h3>
+			<h1 class="heading">що вони кажуть</h1>
+
+			<div class="swiper review-slider">
+
+				<div class="swiper-wrapper">
+
+					<div class="swiper-slide slide">
+						<i class="fas fa-quote-right"></i>
+						<div class="user">
+							<img src="images/new 1.jpg" alt="">
+							<div class="user-info">
+								<h3>Ірина Остапенко</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+							</div>
+						</div>
+						<p>По-перше, хотіла би відзначити швидку та точну доставку.
+							Мій замовлення прибуло вчасно, а їжа була гарячою і свіжою.
+							Це було дуже важливо для мене, особливо коли голодний і чекаєш на їжу.
+							По-друге, я хотіла би похвалити якість страви. Я замовляла піцу, і страва перевершила мої
+							очікування.
+							Піца мала хрустку корж, щедру порцію начинки і справжній смак свіжих інгредієнтів</p>
+					</div>
+
+					<div class="swiper-slide slide">
+						<i class="fas fa-quote-right"></i>
+						<div class="user">
+							<img src="images/new 2.jpg" alt="">
+							<div class="user-info">
+								<h3>Олег Кирилов</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+							</div>
+						</div>
+						<p>Останнім часом я замовляв у вас різні страви, включаючи бургери, картошку фрі та морозиво.
+							І я повинен сказати, що кожен раз я залишався дуже задоволеной.
+							Перш за все, ваші бургери - це справжній шедевр! Булочки свіжі та пухкі, м'ясо ніжне та соковите, а
+							начинка додає неперевершений смак.
+							Кожен шматочок був просто смакотою, і ви явно проявляєте увагу до деталей при готуванні страв.</p>
+					</div>
+
+					<div class="swiper-slide slide">
+						<i class="fas fa-quote-right"></i>
+						<div class="user">
+							<img src="images/new 3.jpg" alt="">
+							<div class="user-info">
+								<h3>Ніна Сергійчук</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+							</div>
+						</div>
+						<p>Я вже кілька разів замовляла у вас різні страви, і кожен раз була приємно здивована великим
+							вибором, який ви пропонуєте.
+							Ви маєте різні види бургерів, піц, салатів, снеків та напоїв, що задовольняють різноманітні смакові
+							уподобання.</p>
+					</div>
+
+					<div class="swiper-slide slide">
+						<i class="fas fa-quote-right"></i>
+						<div class="user">
+							<img src="images/new 4.png" alt="">
+							<div class="user-info">
+								<h3>Віктор Мацків</h3>
+								<div class="stars">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+							</div>
+						</div>
+						<p>Кожного разу, коли я замовляю страви у вас, я помічаю, що ви приділяєте увагу кожній дрібниці.
+							Ваша упаковка є стійкою та надійною, що допомагає зберегти страви в ідеальному стані під час
+							доставки.
+							Крім того, ви також приділяєте увагу естетиці упаковки, що робить отримання страви ще приємнішим.
+						</p>
+					</div>
+
+				</div>
+
+				<div class="swiper-pagination"></div>
+
+			</div>
+
+		</section>
+
+	</div>
+
+
+	<div class="container">
+
+		<section class="order" id="order">
+
+			<h3 class="sub-heading"> Замовити зараз </h3>
+			<h1 class="heading"> Безкоштовно та швидко </h1>
+
+			<form action="">
+
+				<div class="inputBox">
+					<div class="input">
+						<span>Ваше ім'я</span>
+						<input type="text" placeholder="Введіть ім'я">
+					</div>
+					<div class="input">
+						<span>Ваш номер</span>
+						<input type="number" placeholder="Введіть номер">
+					</div>
+				</div>
+				<div class="inputBox">
+					<div class="input">
+						<span>Ваше замовлення</span>
+						<input type="text" placeholder="Введіть назву їжі">
+					</div>
+					<div class="input">
+						<span>Додаткове харчування</span>
+						<input type="test" placeholder="Додатково з їжею">
+					</div>
+				</div>
+				<div class="inputBox">
+					<div class="input">
+						<span>скільки</span>
+						<input type="number" placeholder="Скільки замовлень">
+					</div>
+					<div class="input">
+						<span>Дата та час</span>
+						<input type="datetime-local">
+					</div>
+				</div>
+				<div class="inputBox">
+					<div class="input">
+						<span>Ваша адреса</span>
+						<textarea name="" placeholder="Введіть адресу" id="" cols="30" rows="10"></textarea>
+					</div>
+					<div class="input">
+						<span>Ваше повідомлення</span>
+						<textarea name="" placeholder="Введіть повідомлення" id="" cols="30" rows="10"></textarea>
+					</div>
+				</div>
+
+				<input type="submit" value="Замовити зараз" class="btn">
+
+			</form>
+
+		</section>
+
+	</div>
+
+	<!-- order section ends -->
+
+	<!-- footer section starts  -->
+
+	<div class="container">
+
+		<section class="footer">
+
+			<div class="box-container">
+
+				<div class="box">
+					<h3>розташування</h3>
+					<a href="#">Україна</a>
+					<a href="#">США</a>
+					<a href="#">Франція</a>
+					<a href="#">Італія</a>
+					<a href="#">Німеччина</a>
+				</div>
+
+				<div class="box">
+					<h3>Швидкі посилання</h3>
+					<a href="#">Головна</a>
+					<a href="#">Страви</a>
+					<a href="#">Про нас</a>
+					<a href="#">Меню</a>
+					<a href="#">Відгуки</a>
+					<a href="#">Замовлення</a>
+				</div>
+
+				<div class="box">
+					<h3>Контактна інформація</h3>
+					<a href="#">+380995483543</a>
+					<a href="#">+380663435252</a>
+					<a href="#">fastfood@gmail.com</a>
+					<a href="#">youreat@gmail.com</a>
+					<a href="#">Херсон, Україна - 73009</a>
+				</div>
+
+				<div class="box">
+					<h3>Слідкуйте за нами</h3>
+					<a href="#">facebook</a>
+					<a href="#">twitter</a>
+					<a href="#">instagram</a>
+				</div>
+
+			</div>
+
+			<div class="credit">©2023</div>
+
+		</section>
+	</div>
+
+	<!-- footer section ends -->
+
+	<!-- loader part  -->
+	<!-- <div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div> -->
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+	<!-- custom js file link  -->
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
